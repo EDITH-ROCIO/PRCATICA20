@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Heladería Delicia</title>
+  <link rel="icon" href="favicon-16x16.png" type="image/x-icon">
+  <link rel="stylesheet" href="estilos.css" />
+  <script defer>
+    function toggleMenu() {
+      document.getElementById('nav').classList.toggle('activo');
+    }
+  </script>
+</head>
+<body>
+  <!-- Encabezado -->
+  <header class="encabezado">
+     <h1><img src="favicon-32x32.png" alt=""> Heladería Delicia</h1>
+  
+    <button class="toggle" onclick="toggleMenu()">☰</button>
+    <nav id="nav" class="nav">
+      <a href="#inicio">Inicio</a>
+      <a href="#sabores">Sabores</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- Portada -->
+  <section id="inicio" class="portada">
+    <h2>¡Disfruta del sabor de la felicidad!
+      La Dulce Inspiración de los Helados
+Los helados no solo son un postre delicioso, sino también una fuente inagotable de inspiración. Desde los clásicos sabores hasta las creaciones más extravagantes, cada helado cuenta una historia única que despierta nuestra creatividad. ¿Quién no ha soñado con probar un helado de algodón de azúcar mientras contempla las nubes en un día de verano? Esta conexión entre los helados y nuestra imaginación es lo que hace que las frases de helados sean tan cautivadoras.
+
+    </h2>
+  </section>
+
+  <!-- Sabores -->
+  <section id="sabores" class="sabores">
+    <h2>Nuestros Helados</h2>
+    <div class="grid">
+      <!-- Puedes cambiar las imágenes por otras reales -->
+     
+      <div class="card"><img src="https://i.pinimg.com/1200x/00/f1/82/00f182a249cb5f407f81785cf4cac798.jpg" alt="Vainilla"><h3>Vainilla</h3><p>Clásico y cremoso.</p><span>El sabor clásico que nunca pasa de moda: helado de vainilla, cremoso, suave y simplemente irresistibleS/4.50</span></div>
+      <div class="card"><img src="https://i.pinimg.com/1200x/6a/06/58/6a06581d0c29dfe30759f28cbe193f14.jpg" alt="Fresa"><h3>Fresa</h3><p>Fresas frescas naturales.</p><span> “Dulzura natural en cada cucharada… ¡Descubre el sabor irresistible del helado de fresa!”S/5.00</span></div>
+      <div class="card"><img src="https://i.pinimg.com/736x/10/7e/e3/107ee344ed2c00162c86a31ca3d37015.jpg" alt="Menta"><h3>Menta</h3><p>Refrescante con chispas.</p><span>"¡Refresca tu día con el sabor más dulce y divertido! Helados cremosos con chispas que derriten el estrés y despiertan sonrisas."S/5.50</span></div>
+      <div class="card"><img src="https://i.pinimg.com/736x/c5/70/79/c570797483588724ba57f70ba14dc6af.jpg" alt="Maracuyá"><h3>Maracuyá</h3><p>Ácido y dulce a la vez.</p><span> "El equilibrio perfecto entre lo ácido y lo dulce... ¡como la vida misma!"S/6.00</span></div>
+      <div class="card"><img src="https://i.pinimg.com/1200x/3b/d5/c8/3bd5c8260e9812661bd5f5dbcaabac2f.jpg" alt="Coco"><h3>Coco</h3><p>Natural, sin azúcar.</p><span>"Delicioso por naturaleza. Cero azúcar, mil sonrisas."S/5.00</span></div>
+      <div class="card"><img src="https://i.pinimg.com/1200x/02/2e/52/022e523fb0f11c956488d3506110c3cd.jpg" alt="Oreo"><h3>Oreo</h3><p>Con trozos reales de Oreo.</p><span>"El clásico que amas, ahora en helado con auténticas galletas Oreo."S/6.50</span></div>
+      <div class="card"><img src="https://i.pinimg.com/1200x/89/89/98/898998de62b048fb92cdcd3850ba6fdf.jpg" alt="Plátano"><h3>Plátano</h3><p>Suave y nutritivo.</p><span> "Frescura, suavidad y bienestar en cada cucharada."S/4.50</span></div>
+      <div class="card"><img src="https://i.pinimg.com/736x/d8/23/59/d823596d54d803c944de1cd99acad0f6.jpg" alt="Nutella"><h3>Nutella</h3><p>¡Para los más dulceros!</p><span>"¡Para los más dulceros, cada sabor es un abrazo frío al corazón!" S/6.50</span></div>
+      <div class="card"><img src="https://i.pinimg.com/736x/e0/9f/5a/e09f5a99851e9493215fcd26f4e50da2.jpg" alt="Mango"><h3>Mango</h3><p>Fruta tropical deliciosa.</p><span>"Disfruta el sabor del paraíso en cada cucharada… ¡Helados de fruta tropical, una delicia refrescante y natural!"  S/5.00</span></div>
+      <div class="card"><img src="https://i.pinimg.com/736x/d5/e7/09/d5e709943d9752c2ca23b2ed29277add.jpg" alt="Mango"><h3>chirimoya</h3><p>Fruta tropical deliciosa.</p><span>"Disfruta el sabor del paraíso en cada cucharada… ¡Helados de fruta tropical, una delicia refrescante y natural!"  S/5.00</span></div>
+    </div>
+  </section>
+
+
+  <!-- Contacto -->
+  <section id="contacto" class="contacto">
+    <h2>Contáctanos</h2>
+    <form>
+      <input type="text" placeholder="Tu nombre" required />
+      <input type="email" placeholder="Correo electrónico" required />
+      <textarea placeholder="Escribe tu mensaje..." required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Redes Sociales -->
+  <footer>
+    <p>Síguenos en nuestras redes:ESPINOZA BALTAZAR EDITH</p>
+    <div class="redes">
+      <a href="https://facebook.com" target="_blank">Facebook</a>
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+      <a href="https://tiktok.com" target="_blank">TikTok</a>
+      <a href="https://wa.me/51987654321" target="_blank">WhatsApp</a>
+    </div>
+  </footer>
+
+  <!-- Botón WhatsApp flotante -->
+  <a href="https://wa.me/51987654321" class="whatsapp" target="_blank">💬</a>
+</body>
+</html>
